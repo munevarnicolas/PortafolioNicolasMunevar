@@ -1,0 +1,353 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    padding-top: 56px;
+    background-color: #000;
+    color: #f5f5f7;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.barra-navegacion {
+    background-color: rgba(29, 29, 31, 0.95);
+    backdrop-filter: blur(20px);
+    padding: 15px 0;
+}
+
+.marca-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.circulo-logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.circulo-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texto-logo {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.texto-logo strong {
+    font-size: 16px;
+    color: #f5f5f7;
+}
+
+.texto-logo small {
+    font-size: 11px;
+    color: #86868b;
+    font-weight: 400;
+}
+
+.enlace-menu {
+    font-size: 14px;
+    color: #f5f5f7;
+    opacity: 0.8;
+}
+
+.enlace-menu:hover {
+    opacity: 1;
+    color: #f5f5f7;
+}
+
+.seccion-hero {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 150px 20px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion-hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.seccion-hero .lead {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.emoji-grande {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.emoji-pequeno {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.titulo-seccion .emoji-pequeno {
+    width: 35px;
+    height: 35px;
+}
+
+h4 .emoji-pequeno {
+    width: 28px;
+    height: 28px;
+}
+
+.boton-manzana {
+    border-radius: 980px;
+    padding: 12px 30px;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 10px;
+    border: none;
+}
+
+.btn-primary.boton-manzana {
+    background-color: #0071e3;
+}
+
+.btn-primary.boton-manzana:hover {
+    background-color: #0077ed;
+}
+
+.btn-secondary.boton-manzana {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-secondary.boton-manzana:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.espaciado-seccion {
+    padding: 80px 20px;
+}
+
+.titulo-seccion {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #f5f5f7;
+}
+
+.seccion-gris {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.imagen-perfil {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#sobre-mi p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #86868b;
+}
+
+#sobre-mi h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f5f5f7;
+}
+
+.contenedor-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.etiqueta-habilidad {
+    background-color: rgba(0, 113, 227, 0.1);
+    color: #0071e3;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.tarjeta-proyecto {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.tarjeta-proyecto:hover {
+    transform: translateY(-10px);
+}
+
+.tarjeta-proyecto .card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.tarjeta-proyecto .card-body {
+    background-color: transparent;
+    padding: 25px;
+}
+
+.tarjeta-proyecto .card-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #f5f5f7;
+    margin-bottom: 12px;
+}
+
+.tarjeta-proyecto .card-text {
+    font-size: 15px;
+    color: #86868b;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.enlaces-proyecto {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.enlaces-proyecto .btn {
+    flex: 1;
+}
+
+.btn-dark.boton-manzana {
+    background-color: #1d1d1f;
+}
+
+.btn-dark.boton-manzana:hover {
+    background-color: #2d2d2f;
+}
+
+.formulario-contacto .form-label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #f5f5f7;
+    margin-bottom: 8px;
+}
+
+.formulario-contacto .form-control {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #f5f5f7;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 16px;
+}
+
+.formulario-contacto .form-control:focus {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-color: #0071e3;
+    color: #f5f5f7;
+    box-shadow: 0 0 0 0.2rem rgba(0, 113, 227, 0.25);
+}
+
+footer {
+    background-color: #0a1929;
+    color: #f5f5f7;
+    padding: 60px 20px 30px;
+    margin-top: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.seccion-pie {
+    margin-bottom: 30px;
+}
+
+.seccion-pie h5 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #f5f5f7;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.enlaces-pie {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.enlaces-pie li {
+    margin-bottom: 12px;
+}
+
+.enlaces-pie a {
+    color: #86868b;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.enlaces-pie a:hover {
+    color: #f5f5f7;
+}
+
+.nombre-desarrollador {
+    font-size: 18px;
+    font-weight: 600;
+    color: #f5f5f7;
+    margin-top: 10px;
+}
+
+.iconos-redes {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.iconos-redes a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f7;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.iconos-redes a:hover {
+    background-color: #ffffff;
+    transform: translateY(-3px);
+}
+
+.iconos-redes img {
+    width: 28px;
+    height: 28px;
+    filter: none;
+}
+
+@media (max-width: 768px) {
+    .iconos-redes {
+        justify-content: center;
+    }
+    
+    .seccion-pie {
+        text-align: center !important;
+    }
+}
